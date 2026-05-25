@@ -1,0 +1,77 @@
+[33mWARNING[0m:  [12-05-2026 14:53:44] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [12-05-2026 14:53:45] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component System
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component SqliteDB
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component Posthog
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [12-05-2026 14:53:45] Starting component SegmentAPI
+[31mERROR[0m:    [12-05-2026 14:53:45] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [12-05-2026 14:53:45] Started server process [[36m4409[0m]
+[32mINFO[0m:     [12-05-2026 14:53:45] Waiting for application startup.
+[32mINFO[0m:     [12-05-2026 14:53:45] Application startup complete.
+[32mINFO[0m:     [12-05-2026 14:53:45] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-05-2026 14:54:05] ::1:49668 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 14:54:05] ::1:49668 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 14:55:46] ::1:49692 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 14:56:12] ::1:49701 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 15:55:21] ::1:50127 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 15:55:24] ::1:50128 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 15:58:49] ::1:50146 - "GET /api/v1 HTTP/1.1" 200
+[32mINFO[0m:     [12-05-2026 15:59:34] ::1:50151 - "POST /api/v1/collections/sentiment/get HTTP/1.1" 400
+[32mINFO[0m:     [12-05-2026 15:59:59] ::1:50153 - "GET /api/v1/collections HTTP/1.1" 200
+[31mERROR[0m:    [12-05-2026 16:00:33] Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [12-05-2026 16:00:33] ::1:50156 - "POST /api/v1/collections/f04d25db-01e6-472b-a806-24b9e20d3261/get HTTP/1.1" 200
+[32mINFO[0m:     [12-05-2026 16:01:29] ::1:50164 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:30] ::1:50164 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:31] ::1:50164 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:31] ::1:50164 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:36] ::1:50165 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:36] ::1:50165 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:36] ::1:50165 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:45] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:45] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:45] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:46] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:46] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:46] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:47] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:47] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:47] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:47] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:47] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:48] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:48] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:48] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:48] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:48] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:48] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:49] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:49] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:49] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:49] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:50] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:50] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:50] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:50] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:51] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:51] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:01:51] ::1:50166 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [12-05-2026 16:03:48] ::1:50175 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[36mDEBUG[0m:    [12-05-2026 16:05:14] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-05-2026 16:05:14] ::1:50190 - "POST /api/v1/collections/f04d25db-01e6-472b-a806-24b9e20d3261/get HTTP/1.1" 200
+[32mINFO[0m:     [13-05-2026 15:32:48] ::1:56012 - "POST /api/v1/collections/f04d25db-01e6-472b-a806-24b9e20d3261/get HTTP/1.1" 200
+[32mINFO[0m:     [13-05-2026 15:33:15] ::1:56015 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:00] ::1:56066 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:12] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:14] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:17] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:17] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:17] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:18] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:35:18] ::1:56067 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:38:10] ::1:56296 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:38:11] ::1:56296 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:38:11] ::1:56296 - "GET /api/v2/heartbeat HTTP/1.1" 404
+[32mINFO[0m:     [13-05-2026 15:38:12] ::1:56296 - "GET /api/v2/heartbeat HTTP/1.1" 404
